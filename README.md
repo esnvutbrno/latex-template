@@ -3,7 +3,11 @@ LaTeX template for ESN documents with brand fonts, designated footers and stylin
 
 ## Compiling
 
-Since `pdflatex` does not support custom `.ttf` fonts, template has to be compiled with `lualatex` (_not `luatex`_). Overleaf does support this, so just upload the template there and change the project compiler.
+Since `pdflatex` does not support custom `.ttf` fonts, template **has to be compiled with `lualatex`** (_not `luatex`!_). Overleaf does support this, so just upload the template there and change the project compiler.
+
+```
+$ lualatex doc.tex
+```
 
 ## Template
 ![doc-1](https://user-images.githubusercontent.com/6154740/145475109-99ee82f2-85ed-428b-b63f-7eb55e4deeff.png)
